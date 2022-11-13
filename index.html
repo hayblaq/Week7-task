@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <title>Carousel task</title>
+</head>
+<body>
+    <section aria-label="New Album">
+
+    <div class="carousel" data-carousel>
+        <div onmouseover="show('prev')" onmouseout="hide('prev') ">
+           <div id="prev"><button class="carousel-button prev" data-carousel-button ="prev">&#8656;</button></div>
+
+           <div onmouseover="show('next')" onmouseout="hide('next') ">
+          <div id="next"><button class="carousel-button next" data-carousel-button ="next">&#8658;</button>
+        </div>
+
+        <ul data-slides>
+            <li class="slide" data-active>
+            <img src="./images/image1.jpeg" alt="piano1">
+            </li>
+            <li class="slide">
+            <img src="./images/image2.jpeg" alt="piano2">
+            </li>
+            <li class="slide">
+            <img src="./images/image3.jpeg" alt="piano3">
+            </li>
+            <li class="slide">
+            <img src="./images/image4.jpeg" alt="piano4">
+            </li>
+            <li class="slide">
+            <img src="./images/image5.jpeg" alt="piano5">
+            </li>
+            <li class="slide">
+            <img src="./images/image6.jpeg" alt="piano6">
+            </li>
+        </ul>
+    </div>
+    </div>
+        
+    </section>
+</body>
+</html>
